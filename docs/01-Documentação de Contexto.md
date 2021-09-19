@@ -1,46 +1,45 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com a evolução da sociedade, o dia a dia das pessoas se tornou cada vez mais agitado, tornando ainda mais desafiador conciliar todas as responsabilidades do cotidiano. Pode-se citar, como exemplo, o cuidado com a saúde dos animais de estimação, que por muitas vezes pode ser deixada em segundo plano, seja pela falta de planejamento financeiro, esquecimento ou mesmo a falta de tempo.
+
+Aliado a isso, tem-se visto a cada ano, a diminuição no interesse das pessoas em terem filhos e um aumento na adoção de pets, esse movimento social tem grande relevância ao tema do projeto, pois doenças consideradas zoonoses podem sofrer um crescimento vertiginoso se não forem tomadas as devidas precauções. Segundo Oliveira-Neto et al. (2018) a pesquisa realizada com tutores de cães e gatos apresentou que o nível de conhecimento de tutores sobre zoonose é limitado, apesar de saberem que os animais transmitem doenças, a grande maioria desconhece o que é zoonose e nunca receberam esclarecimentos sobre o tema. 
+
+Conforme mencionado acima, é fundamental a criação de uma ferramenta que auxilie no controle da saúde dos animais domésticos, visando o bem-estar do animal, de seus tutores e de terceiros, com o intuito de preservar a comunidade como um todo, além de fornecer praticidade para os donos, e futuramente que possa estreitar e agilizar os caminhos para as campanhas públicas de vacinação. 
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Tendo em vista o contexto apresentado, o projeto busca trazer maior bem-estar e saúde para os animais de estimação, aliando a isso conforto e praticidade aos tutores no controle de aplicação de vacinas e medicamentos. Resolvendo assim problemas como: a falta de planejamento financeiro, esquecimento para aplicação de novas doses e até mesmo fornecer informações a respeito dos gastos com cada animal ao longo de sua vida. 
 
 > **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> - [Site que fornece serviço equivalente ao pretendido neste projeto](https://www.pataapata.com.br/)
+
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo principal deste projeto é a criação de um sistema de carteira de vacinação digital para animais de estimação domésticos, dispondo de ferramentas práticas e funcionais para controle de aplicação de doses e medicamentos. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos, podemos ressaltar: 
+
+1. Fornecer histórico de vacinas e medicamentos de cada pet; 
+2. Notificar o tutor da proximidade de datas de aplicação de novas doses, assim como o controle de medicação. 
+3. Permitir o usuário ter uma visão ampla sobre a saúde e bem-estar de seus animais. 
  
 > **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+> - [Diretrizes Para a Vacinação de Cães e Gatos](https://www.vetsmart.com.br/cg/estudo/13832/diretrizes-para-a-vacinacao-de-caes-e-gatos)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Os animais de estimação carecem de cuidados para que tenham uma vida longa e saudável. Mas nem sempre os donos conseguem administrar bem tais cuidados, como a vacinação, por exemplo, que possuem tipos de vacinas e frequências específicas de acordo com cada espécie e raça. Visto que a falta de controle de vacinação em grande parte se dá pela vida corrida dos donos desses animais, alinhar uma tecnologia capaz de fazer esse gerenciamento, com mecanismos que fazem parte do cotidiano dessas pessoas, como os aplicativos e sites contribuem para que menos animais fiquem sem receber os devidos cuidados. 
 
 > **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+> - [Por que é tão importante manter a vacinação do seu pet em dia?](Por que é tão importante manter a vacinação do seu pet em dia?)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O projeto visa como público alvo todas as pessoas que possuem algum animal de estimação em seus cuidados. O foco principal desta aplicação são jovens e adultos entre 18 - 35 anos, com facilidade de acesso em dispositivos móveis ou computadores. Podendo futuramente ser implementado novas funcionalidades que tragam ferramentas úteis às clinicas veterinárias e pet shops. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+> **Links Úteis**: 
+> - [Saiba quais são as vacinas necessárias para cães e gatos](https://g1.globo.com/sao-paulo/sorocaba-jundiai/mundo-pet/noticia/saiba-quais-sao-as-vacinas-necessarias-para-caes-e-gatos.ghtml)
+> - [Vacinação de Cães e Gatos: O que você precisa saber?](http://www.veterinarius.ufv.br/informativos/vacinacao-de-caes-e-gatos-o-que-voce-precisa-saber/)
+> - [Campanhas anuais de vacinação contra a raiva. ](https://bvsms.saude.gov.br/bvs/publicacoes/manual_pasteur03.pdf)
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
