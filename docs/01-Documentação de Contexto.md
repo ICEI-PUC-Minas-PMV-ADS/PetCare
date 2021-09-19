@@ -11,7 +11,7 @@ Conforme mencionado acima, é fundamental a criação de uma ferramenta que auxi
 Tendo em vista o contexto apresentado, o projeto busca trazer maior bem-estar e saúde para os animais de estimação, aliando a isso conforto e praticidade aos tutores no controle de aplicação de vacinas e medicamentos. Resolvendo assim problemas como: a falta de planejamento financeiro, esquecimento para aplicação de novas doses e até mesmo fornecer informações a respeito dos gastos com cada animal ao longo de sua vida. 
 
 > **Links Úteis**:
-> - [Site que fornece serviço equivalente ao pretendido neste projeto](https://www.pataapata.com.br/)
+> - [Pataapata: Site que fornece serviço equivalente ao pretendido neste projeto](https://www.pataapata.com.br/)
 
 
 ## Objetivos
