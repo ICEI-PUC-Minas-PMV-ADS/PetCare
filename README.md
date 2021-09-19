@@ -12,8 +12,8 @@ Esse projeto tem como objetivo criar uma plataforma que possibilitará registro 
 
 * Bruno Benetolo
 * Crislaine Medeiros
-* Matheus Amorim
 * Mariana
+* Matheus Amorim
 * Pedro Góis
 * Sabrina Gomes
 * Tales Monteiro
