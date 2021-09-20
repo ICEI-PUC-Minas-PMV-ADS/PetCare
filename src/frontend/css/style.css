@@ -1,0 +1,433 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style: none;
+}
+
+html {
+    font-size: 16px;
+    color: var(--cor-fonte-secundaria);
+}
+
+:root {
+    --cor-primaria: #5A2D82;
+    --cor-secundaria: #A5D27D;
+    --cor-fonte-primaria: #5A2D82;
+    --cor-fonte-secundaria: #9a9a9a;
+}
+
+.navbar {
+    background-color: var(--cor-primaria);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar .wrapper-logo {
+    height: 120px;
+    width: 285;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .wrapper-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 120px);
+    padding: 0 0 0 5rem;
+    background-color: #FFF;
+}
+
+.formulario {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+
+.formulario .acoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 10%;
+}
+
+.formulario form {
+    width: 60%;
+    height: 90%;
+}
+
+.formulario h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--cor-primaria);
+}
+
+.formulario h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.formulario a {
+    color: var(--cor-fonte-secundaria);
+}
+
+.formulario input {
+    width: 100%;
+    height: 60px;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: var(--cor-fonte-secundaria);
+}
+
+.formulario button {
+    margin-top: 2rem;
+    width: 100%;
+    height: 60px;
+}
+
+button {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 1px 1px 6px rgb(92, 92, 92);
+    font-size: 2rem;
+    color: #FFF;
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.banner {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .wrapper-banner {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .wrapper-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bt-retorno {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+    font-size: 1rem;
+}
+
+.formulario u {
+    cursor: pointer;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+    width: 100vw;
+    height: 100vh;
+}
+
+.principal .mobile-menu {
+    display: none;
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.principal .mobile-menu .wrp-img {
+    width: 80px;
+    height: 80px;
+}
+
+.principal .mobile-menu .wrp-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.principal .mobile-menu>.menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10000;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.principal .menu-lateral {
+    width: 250px;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: left .5s;
+}
+
+.principal .mobile-menu .menu-lateral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 100;
+}
+
+.menu-lateral .perfil {
+    width: 220px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: #E4E7EB 1px solid;
+}
+
+.perfil .wrp-img {
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+    margin-bottom: 20px;
+}
+
+.perfil .wrp-img img {
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+    object-fit: cover;
+}
+
+.menu-lateral>.menu {
+    width: 100%;
+    height: calc(100vh - 250px);
+    padding: 1.5rem 1rem;
+}
+
+.menu-lateral>.menu .item-menu {
+    width: 100%;
+    height: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: .9rem;
+    border-radius: 6px;
+    color: #66788A;
+}
+
+.item-menu:hover {
+    background-color: #F6F9FD;
+}
+
+.menu-lateral>.menu .item-menu h4 {
+    padding-left: 1rem;
+}
+
+.principal .painel-view {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    width: calc(100% - 250px);
+    height: 100%;
+    padding: 2rem 5rem;
+}
+
+.card-pet {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 20rem;
+    height: 24rem;
+}
+
+.card-pet .wrp-img {
+    width: 90%;
+    height: 45%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.card-pet .wrp-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-pet .infos-pet {
+    width: 90%;
+    height: 30%;
+    padding: .8rem 0;
+    border-bottom: #E4E7EB 1px solid;
+}
+
+.card-pet .acoes {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-pet .acoes button {
+    width: 44%;
+    height: 60%;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:425px) {
+    .navbar {
+        display: none;
+    }
+    .conteudo {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .formulario {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 500;
+        width: 100%;
+        height: 100%;
+    }
+    .formulario div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .formulario .acoes {
+        display: none;
+    }
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .formulario h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #FFF;
+    }
+    .formulario h4 {
+        display: none;
+    }
+    .formulario h5 {
+        margin-bottom: 1rem;
+        color: #FFF;
+    }
+    .formulario a {
+        color: #FFF;
+    }
+    .formulario input {
+        width: 100%;
+        height: 50px;
+        font-size: 1.4rem;
+        margin-bottom: .7rem;
+        padding: 0 1rem;
+        color: #FFF;
+        border-color: #FFF;
+        border-style: solid;
+        border-radius: 6px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .formulario input::placeholder {
+        color: #FFF;
+    }
+    .banner {
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        z-index: 1;
+    }
+    .banner .wrapper-banner img {
+        opacity: 0.65;
+    }
+    .formulario button {
+        margin-top: .7rem;
+        width: 100%;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+    .principal .menu-lateral {
+        display: none;
+    }
+    .principal .painel-view {
+        position: absolute;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 2rem 5rem;
+    }
+    .principal .mobile-menu {
+        display: flex;
+        z-index: 1000;
+    }
+    .principal .mobile-menu .menu-lateral.open {
+        display: flex;
+        left: 0%;
+    }
+}
