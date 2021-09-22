@@ -1,6 +1,6 @@
  
 <a href="https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=65%3A4"><img src="https://s1.1zoom.me/big0/885/Dogs_Cats_Guinea_pigs_White_background_Three_3_564019_1280x779.jpg" width="750px">
-# <a href="https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=65%3A4"><img src="https://i.picasion.com/pic91/68c13634b2ac26caadfe01e448f3b235.gif" width="300px"><br>Carteira de vacinação para animais de estimação <br/></a>
+# <a href="https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=65%3A4"><img src="https://i.picasion.com/pic91/68c13634b2ac26caadfe01e448f3b235.gif" width="300px"></a>
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
 `Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 2 -`
