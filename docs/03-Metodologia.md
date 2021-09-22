@@ -1,4 +1,3 @@
-
 # Metodologia
 
 A aplicação foi desenvolvida em protocolo HTTP com linguagem de marcação HTML, estilização CSS e programação JavaScript, construída através do editor de texto Visual Studio Code. Utilizou-se das metodologias ágeis scrum e Kanban na organização do time, e versionamento de código Git com repositório Github.
@@ -10,7 +9,6 @@ A ferramenta de controle de versão adotada no projeto foi o
 foi utilizado para hospedagem do repositório.
 
 ![image](https://user-images.githubusercontent.com/78277341/134427164-11d32c7b-1815-4469-b837-410951b5bc00.png)
-
 
 O projeto segue a seguinte convenção para o nome de branches:
 
@@ -27,32 +25,36 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-
 ## Gerenciamento de Projeto
+
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do
 processo de desenvolvimento.
-
 
 ### Divisão de Papéis
 
 A equipe está organizada da seguinte maneira:
 
 **Scrum Master**:
--  Bruno
+
+- Bruno
 
 **Product Owner**:
- - Mariana
+
+- Mariana
 
 **Equipe de Desenvolvimento** :
--  Talles
--  Mateus
--  Sabrina
--  Crislaine
+
+- Talles
+- Matheus
+- Sabrina
+- Crislaine
 
 **Equipe de Design**
+
 - Pedro.
 
 > **Links Úteis**:
+>
 > - [Estrutura do Site PetCare](https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=0%3A1)
 > - [Projetos PatCare: Divisão de Tarefas](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects)
 
@@ -66,13 +68,12 @@ Também será utilizado o [Trello](https://trello.com/b/DaCH145N/projeto-petcare
 
 ![image](https://user-images.githubusercontent.com/78277341/134428406-7482be7f-4722-4c2c-852a-166567c63736.png)
 
-
- 
 ### Ferramentas
 
-A equipe utilizará a plataforma Github para a construção do projeto e planejamento do código fonte. É também pelo Github que iremos criar os quadros de atividades específicas, roteiros abrangentes e checklists de versão.Na ferramenta Projects, a equipe realizará os fluxos de trabalho, personalizando-os conforme a necessidade. Para elaboração da estrutura de website e prototipagem do projeto utilizaremos o Figma. 
+A equipe utilizará a plataforma Github para a construção do projeto e planejamento do código fonte. É também pelo Github que iremos criar os quadros de atividades específicas, roteiros abrangentes e checklists de versão.Na ferramenta Projects, a equipe realizará os fluxos de trabalho, personalizando-os conforme a necessidade. Para elaboração da estrutura de website e prototipagem do projeto utilizaremos o Figma.
 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
+> **Possíveis Ferramentas que auxiliarão no gerenciamento**:
+>
 > - [Figma](https://slack.com/)
 > - [Github PatCare Projects](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects)
 > - [Trello](https://trello.com/b/DaCH145N/projeto-petcare)
