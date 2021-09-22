@@ -1,6 +1,8 @@
 
 # Metodologia
 
+TESTE
+
 A aplicação foi desenvolvida em protocolo HTTP com linguagem de marcação HTML, estilização CSS e programação JavaScript, construída através do editor de texto Visual Studio Code. Utilizou-se das metodologias ágeis scrum e Kanban na organização do time, e versionamento de código Git com repositório Github.
 
 ## Controle de Versão
