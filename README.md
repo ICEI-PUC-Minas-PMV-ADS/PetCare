@@ -1,7 +1,4 @@
 
-
-https://user-images.githubusercontent.com/77770841/134391186-1bd52bd9-6206-4ccb-84f7-5c91b601107d.mp4
-
  
 <a href="https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=65%3A4"><img src="https://s1.1zoom.me/big0/885/Dogs_Cats_Guinea_pigs_White_background_Three_3_564019_1280x779.jpg" width="750px">
 # <a href="https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=65%3A4"><img src="https://1.bp.blogspot.com/-ly8FVjNvGg4/YUtjgTt2PSI/AAAAAAAAPMk/G_d6QdEM43EtULhlCs7Z_gSW_w6ytEvwgCLcBGAsYHQ/s320/WhatsApp%2BVideo%2B2021-09-22%2Bat%2B13.55.36.gif" width="300px"></a>
