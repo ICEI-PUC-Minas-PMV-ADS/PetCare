@@ -1,6 +1,6 @@
 # Metodologia
 
-A aplicação foi desenvolvida em protocolo HTTP com linguagem de marcação HTML, estilização CSS e programação JavaScript, construída através do editor de texto Visual Studio Code. Utilizou-se das metodologias ágeis scrum e Kanban na organização do time, e versionamento de código Git com repositório Github.
+A aplicação foi desenvolvida em protocolo HTTP com linguagem de marcação HTML, estilização CSS e programação JavaScript, construída através do editor de texto Visual Studio Code. Utilizou-se das metodologias ágeis  [scrum e Kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects/1).na organização do time, e versionamento de código Git com repositório [Github](https://github.com).
 
 ## Controle de Versão
 
@@ -8,7 +8,7 @@ A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
 
-![image](https://user-images.githubusercontent.com/78277341/134427164-11d32c7b-1815-4469-b837-410951b5bc00.png)
+![image](https://miro.medium.com/max/1400/1*uUpzVOpdFw5V-tJ_YvgFmA.png)
 
 O projeto segue a seguinte convenção para o nome de branches:
 

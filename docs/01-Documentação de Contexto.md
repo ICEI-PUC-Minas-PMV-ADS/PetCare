@@ -26,6 +26,7 @@ Como objetivos específicos, podemos ressaltar:
  
 > **Links Úteis**:
 > - [Diretrizes Para a Vacinação de Cães e Gatos](https://www.vetsmart.com.br/cg/estudo/13832/diretrizes-para-a-vacinacao-de-caes-e-gatos)
+> - [Tabela de Vacinas Necessárias para Cães e Gatos](https://www.proteste.org.br/animais-de-estimacao/caes/noticia/saiba-quais-vacinas-seu-pet-deve-receber)
 
 ## Justificativa
 
