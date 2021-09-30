@@ -7,8 +7,8 @@ Dentre as preocupações para a montagem da interface do sistema, foi estabeleci
 
 ## Diagrama de Fluxo
 
-O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, <a href="https://www.figma.com/proto/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=179%3A466&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=179%3A466"></a>acesse o ambiente interativo do projeto no Figma.</a>
-
+O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, <a href="https://www.figma.com/proto/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=179%3A466&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=179%3A466">acesse o ambiente interativo do projeto no Figma.</a>
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/blob/develop/src/frontend/assets/wireframes/Fluxo%20do%20sistema.png)
 ## Wireframes
 
 Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 2 grandes blocos, descritos a seguir. São eles:
