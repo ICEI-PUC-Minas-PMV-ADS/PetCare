@@ -2,7 +2,43 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Apresentaremos a seguir os detalhes técnicos que tratam dos componentes que fazem parte da solução e do ambiente de hospedagem da solução, criado pela equipe. 
+
+  
+
+### Diagrama de Componentes 
+
+Os componentes que fazem parte da solução são apresentados na Figura que se segue. 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/blob/develop/docs/img/Arquitetura.jpeg)
+
+Figura 10 - Arquitetura da Solução 
+
+ 
+
+A solução implementada conta com os seguintes módulos:  
+
+ 
+
+ - Navegador - Interface básica do sistema
+	 - Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
+ - Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
+	 - Plataforma Heroku ou Plataforma Netlife
+ - Local Storage - armazenamento mantido no Navegador, onde são implementados através de uma biblioteca (JSON Server) o banco de dados baseados em JSON. São eles:
+	 - Dados do usuário – informações do usuário como nome, e-mail, idade, cidade, estado e gênero.
+	 - Dados do pet – informações do pet como nome, idade, peso, raça e cor.
+	 - Dados de vacina – informações sobre as vacinas de caráter obrigatório, nome da vacina, data de aplicação, se necessita de dose reforço ou não, se necessitar de dose reforço data do retorno.
+	 - Dados de medicamentos – nome do medicamento, quantidade a ser ministrado, periodicidade a ser ministrado, e receita em formato pdf, jpeg, png etc.
+	 - item 2 
+
+ 
+
+### Hospedagem 
+
+Como ambiente de hospedagem do site do nosso projeto utilizaremos a plataforma do Heroku ou Netlife. O site é mantido no ambiente da URL: https://link_exemplo.herokuapp.com 
+
+ 
+A publicação do site no Heroku ou no Netlife é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço: https://git.heroku.com/link_exemplo.git 
 
 ## Diagrama de Classes
 
