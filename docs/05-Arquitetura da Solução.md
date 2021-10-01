@@ -10,7 +10,7 @@ Apresentaremos a seguir os detalhes técnicos que tratam dos componentes que faz
 
 Os componentes que fazem parte da solução são apresentados na Figura que se segue. 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/blob/develop/docs/img/Arquitetura.jpeg)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/blob/main/docs/img/Arquitetura.jpeg)
 
 Figura 10 - Arquitetura da Solução 
 
