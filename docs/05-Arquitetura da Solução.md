@@ -29,9 +29,7 @@ A solução implementada conta com os seguintes módulos:
 	 - Dados do pet – informações do pet como nome, idade, peso, raça e cor.
 	 - Dados de vacina – informações sobre as vacinas de caráter obrigatório, nome da vacina, data de aplicação, se necessita de dose reforço ou não, se necessitar de dose reforço data do retorno.
 	 - Dados de medicamentos – nome do medicamento, quantidade a ser ministrado, periodicidade a ser ministrado, e receita em formato pdf, jpeg, png etc.
-	 - item 2 
-
- 
+	  
 
 ### Hospedagem 
 
