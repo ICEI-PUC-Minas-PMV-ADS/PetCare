@@ -48,7 +48,7 @@ Tela Principal - Cards dos pets cadastrados.
 
 ### Tela minha conta 
 
-Navegando através do menu lateral é possível o usuário acessar a página minha conta, nela é mostrado o formulário com as informações cadastrais, sendo há a possibilidade de alterar os dados e salvá-los, também é permitido alterar a foto de perfil e excluir a conta do sistema, atendendo ao requisito funcional RF-03. 
+Navegando através do menu lateral é possível o usuário acessar a página minha conta, nela é mostrado o formulário com as informações cadastrais, sendo que há a possibilidade de alterar os dados e salvá-los, também é permitido alterar a foto de perfil e excluir a conta do sistema, atendendo ao requisito funcional RF-03. 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/blob/develop/docs/img/Tela%20Minha%20Conta.png)
 
