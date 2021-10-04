@@ -1,5 +1,6 @@
 # Metodologia
 
+
 A aplicação foi desenvolvida em protocolo HTTP com linguagem de marcação HTML, estilização CSS e programação JavaScript, construída através do editor de texto Visual Studio Code. Utilizou-se das metodologias ágeis  [scrum e Kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects/1).na organização do time, e versionamento de código Git com repositório [Github](https://github.com).
 
 ## Controle de Versão
