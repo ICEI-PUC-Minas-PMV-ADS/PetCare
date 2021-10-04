@@ -39,12 +39,10 @@ A publicação do site no Heroku ou no Netlify é feita por meio de uma submiss�
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+O Diagrama de Classes representa abstração dos objetos bem como os seus relacionamentos. Foram imaginados quatro objetos que representarão as principais entidades do sistema. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+![image](https://user-images.githubusercontent.com/78277341/135914609-c96c3326-7954-4648-aa00-48ac1ccabe61.png)
 
 ## Modelo ER
 
