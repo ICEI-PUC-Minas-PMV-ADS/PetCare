@@ -33,7 +33,7 @@ A solução implementada conta com os seguintes módulos:
 
 ### Hospedagem 
 
-Como ambiente de hospedagem do site do nosso projeto utilizaremos a plataforma do Heroku ou Netlife. O site será mantido no ambiente URL a ser criado nas próximas etapas do projeto.
+Como ambiente de hospedagem do site do nosso projeto utilizaremos a plataforma do Heroku ou Netlife. O site poderá ser acessado a partir do domínio posteriormente gerado pela plataforma nas próximas etapas. 
  
 A publicação do site no Heroku ou no Netlife é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontrará no github.
 
