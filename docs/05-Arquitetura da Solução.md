@@ -33,10 +33,9 @@ A solução implementada conta com os seguintes módulos:
 
 ### Hospedagem 
 
-Como ambiente de hospedagem do site do nosso projeto utilizaremos a plataforma do Heroku ou Netlife. O site é mantido no ambiente da URL: https://link_exemplo.herokuapp.com 
-
+Como ambiente de hospedagem do site do nosso projeto utilizaremos a plataforma do Heroku ou Netlife. O site será mantido no ambiente URL a ser criado nas próximas etapas do projeto.
  
-A publicação do site no Heroku ou no Netlife é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço: https://git.heroku.com/link_exemplo.git 
+A publicação do site no Heroku ou no Netlife é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontrará no github.
 
 ## Diagrama de Classes
 
