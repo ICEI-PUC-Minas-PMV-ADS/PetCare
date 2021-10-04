@@ -12,7 +12,7 @@ Os componentes que fazem parte da solução são apresentados na Figura que se s
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/blob/main/docs/img/Arquitetura.jpeg)
 
-Figura 14 - Arquitetura da Solução 
+Figura 4 - Arquitetura da Solução 
 
  
 
