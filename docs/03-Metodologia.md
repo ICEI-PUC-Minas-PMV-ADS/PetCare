@@ -1,15 +1,15 @@
-
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-A aplicação foi desenvolvida em protocolo HTTP com linguagem de marcação HTML, estilização CSS e programação JavaScript, construída através do editor de texto Visual Studio Code. Utilizou-se das metodologias ágeis scrum e Kanban na organização do time, e versionamento de código Git com repositório Github. 
+A aplicação foi desenvolvida em protocolo HTTP com linguagem de marcação HTML, estilização CSS e programação JavaScript, construída através do editor de texto Visual Studio Code. Utilizou-se das metodologias ágeis  [scrum e Kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects/1).na organização do time, e versionamento de código Git com repositório [Github](https://github.com).
 
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
+
+![image](https://miro.medium.com/max/1400/1*uUpzVOpdFw5V-tJ_YvgFmA.png)
 
 O projeto segue a seguinte convenção para o nome de branches:
 
@@ -26,52 +26,57 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
+
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do
+processo de desenvolvimento.
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe está organizada da seguinte maneira:
+
+**Scrum Master**:
+
+- Bruno
+
+**Product Owner**:
+
+- Mariana
+
+**Equipe de Desenvolvimento** :
+
+- Talles
+- Matheus
+- Sabrina
+- Crislaine
+
+**Equipe de Design**
+
+- Pedro.
 
 > **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+>
+> - [Estrutura do Site PetCare](https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=0%3A1)
+> - [Projetos PatCare: Divisão de Tarefas](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects)
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução, foi criado um quadro de backlogs [no Projects do Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects).
+
+![image](https://user-images.githubusercontent.com/78277341/134427772-e5fbfc30-bcc3-44c1-97c7-9bf2160c929e.png)
+
+Também será utilizado o [Trello](https://trello.com/b/DaCH145N/projeto-petcare) para o gerenciamento do processo:
+
+![image](https://user-images.githubusercontent.com/78277341/134428406-7482be7f-4722-4c2c-852a-166567c63736.png)
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+A equipe utilizará a plataforma Github para a construção do projeto e planejamento do código fonte. É também pelo Github que iremos criar os quadros de atividades específicas, roteiros abrangentes e checklists de versão.Na ferramenta Projects, a equipe realizará os fluxos de trabalho, personalizando-os conforme a necessidade. Para elaboração da estrutura de website e prototipagem do projeto utilizaremos o Figma.
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+> **Possíveis Ferramentas que auxiliarão no gerenciamento**:
+>
+> - [Figma](https://slack.com/)
+> - [Github PatCare Projects](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects)
+> - [Trello](https://trello.com/b/DaCH145N/projeto-petcare)
+> - [Git Bash](https://git-scm.com/downloads)
+> - [Visual Studio Code](https://code.visualstudio.com/)
