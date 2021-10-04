@@ -23,7 +23,7 @@ A solução implementada conta com os seguintes módulos:
  - Navegador - Interface básica do sistema
 	 - Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
  - Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
-	 - Plataforma Heroku ou Plataforma Netlife
+	 - Plataforma Heroku ou Plataforma Netlify
  - Local Storage - armazenamento mantido no Navegador, onde são implementados através de uma biblioteca (JSON Server) o banco de dados baseados em JSON. São eles:
 	 - Dados do usuário – informações do usuário como nome, e-mail, idade, cidade, estado e gênero.
 	 - Dados do pet – informações do pet como nome, idade, peso, raça e cor.
