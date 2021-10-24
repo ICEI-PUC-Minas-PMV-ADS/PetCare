@@ -1,6 +1,6 @@
 # 7. Funcionalidades do Sistema (Telas) 
 
-Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência. 
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O template criado está disponível no site [PetCare](https://happy-liskov-7f20ba.netlify.app/). . 
 
 
 ## Requisitos atendidos 
