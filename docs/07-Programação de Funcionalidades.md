@@ -13,9 +13,9 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 ## Artefatos da funcionalidade 
 
 - index.html 
-- script_noticias.js 
+- script_login.js 
 - style.css 
-- icone_noticia.jpg 
+- icone_login.jpg 
 
 ## Estrutura de Dados 
 
