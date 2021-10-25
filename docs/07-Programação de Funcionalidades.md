@@ -1,15 +1,43 @@
-# Programação de Funcionalidades
+# 7. Funcionalidades do Sistema (Telas) 
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O template criado está disponível no site [PetCare](https://petcare-0001.netlify.app/).  
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+## Requisitos atendidos 
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+- RF-01 -  Funcionalidade login. 
+ 
+
+ 
+
+## Artefatos da funcionalidade 
+
+- index.html 
+- script_login.js 
+- style.css 
+- icone_login.jpg 
+
+## Estrutura de Dados 
+
+![image](https://user-images.githubusercontent.com/78277341/138774830-622413f5-cdb7-4c3d-81c3-ba17e148edf6.png)
+
+
+## Instruções de acesso 
+
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
+- Descompacte o arquivo em uma pasta específica; 
+- Abra o Visual Studio Code e execute o Live Server; 
+- Abra um navegador de Internet e informe a seguinte URL: 
+http://localhost:5500/index.html 
+
+
+## Login e Cadastro (RF-05) 
+
+A tela "Login" permitirá o acesso de usuários cadastrados no sistema da PetCare. Caso o usuário não tenha registro no banco de dados, ele será redirecionado para a tela "Cadastrar" onde o usuário poderá informar dados como nome, email e senha. 
+
+
+![image](https://user-images.githubusercontent.com/78277341/138603706-07e796f4-27fd-43a1-ba55-41ca7d3c8a0d.png)
+
+
+![image](https://user-images.githubusercontent.com/78277341/138602910-17800c47-3104-441b-9d14-08825e96ddef.png)
+

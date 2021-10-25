@@ -56,7 +56,7 @@ A equipe está organizada da seguinte maneira:
 
 > **Links Úteis**:
 >
-> - [Estrutura do Site PetCare](https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=0%3A1)
+> - [Estrutura do Site PetCare](https://www.figma.com/proto/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=179%3A466&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=179%3A466)
 > - [Projetos PatCare: Divisão de Tarefas](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects)
 
 ### Processo
@@ -75,7 +75,7 @@ A equipe utilizará a plataforma Github para a construção do projeto e planeja
 
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**:
 >
-> - [Figma](https://slack.com/)
+> - [Figma](hhttps://www.figma.com/proto/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=179%3A466&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=179%3A466)
 > - [Github PatCare Projects](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects)
 > - [Trello](https://trello.com/b/DaCH145N/projeto-petcare)
 > - [Git Bash](https://git-scm.com/downloads)

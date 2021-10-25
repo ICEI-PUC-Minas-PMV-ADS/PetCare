@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: raw;
+}
+
+@media only screen and (max-width: 1300px) {
+  body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+}
+
+.loginContent {
+  display: inline-flex;
+  width: 50%;
+  height: 100vh;
+  background-color: #61427c;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContent {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+  background-image: url(./img/escuchandote-perro-joven-bulldog-frances-planteando-lindo-perrito-o-mascota-blanco-negro-jugueton-jugando-parece-feliz-aislado-sobre-fondo-blanco-concepto-movimiento-accion-movimiento_155003-34897.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #61427c;
+}
+
+h1 {
+  width: 100%;
+  height: 130px;
+  text-indent: -9999px;
+  background: url(./img/petCareLogo.png);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: center;
+  margin: 0;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 60vh;
+  max-height: 450px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: 0 0 1em #381f4e;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+  height: 55%;
+}
+
+input {
+  padding: 8px;
+  width: 100%;
+  height: 55px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(219, 219, 219);
+}
+input:focus {
+  box-shadow: 0 0 0.2em #9eff54;
+  outline: 1px;
+}
+
+::placeholder {
+  color: rgb(168, 168, 168);
+}
+
+#entrar {
+  background-color: #98f353;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 19px;
+  border: none;
+}
+
+#entrar:hover {
+  background-color: #73da25;
+  cursor: pointer;
+}
+
+.cadastro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  color: rgb(148, 148, 148);
+}
+
+@media only screen and (max-width: 1300px) {
+  .loginContent {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .imageContent {
+    width: 100%;
+    background-size: 100%;
+  }
+
+  .login {
+    width: 500px;
+    height: 65vh;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .imageContent {
+    background-size: 160%;
+    background-position: top;
+    height: 80vh;
+  }
+
+  .loginContent {
+    height: 85vh;
+  }
+
+  .login {
+    border-radius: 0;
+    box-shadow: none;
+    padding-bottom: 30px;
+  }
+}
