@@ -33,7 +33,7 @@ http://localhost:5500/index.html
 
 ## Login e Cadastro (RF-05) 
 
-A tela "Login" permitirá o acesso de usuários cadastrados no sistema da PetCare. Caso o usuário não tenha registro no banco de dados, ele será redirecionado para a tela "Cadastrar" onde o usuário poderá informar dados como nome, email, animal e endereço. 
+A tela "Login" permitirá o acesso de usuários cadastrados no sistema da PetCare. Caso o usuário não tenha registro no banco de dados, ele será redirecionado para a tela "Cadastrar" onde o usuário poderá informar dados como nome, email e senha. 
 
 
 ![image](https://user-images.githubusercontent.com/78277341/138603706-07e796f4-27fd-43a1-ba55-41ca7d3c8a0d.png)
