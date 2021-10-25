@@ -5,8 +5,8 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 ## Requisitos atendidos 
 
-- RF-01 -  
-- RF-02 -  
+- RF-01 -  Funcionalidade login. 
+ 
 
  
 
