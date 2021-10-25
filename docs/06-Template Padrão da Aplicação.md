@@ -8,7 +8,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 
 
 
-O template criado está disponível no site [PetCare](https://happy-liskov-7f20ba.netlify.app/) e está composto pelos seguintes layouts:  
+O template criado está disponível no site [PetCare](https://petcare-0001.netlify.app/) e está composto pelos seguintes layouts:  
 
 - Login, onde os usuários cadastrados são direcionados para a tela principal. 
 - Cadastro de nova conta, onde usuários não cadastrados serão direcionados.   
