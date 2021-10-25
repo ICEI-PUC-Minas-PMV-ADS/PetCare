@@ -2,7 +2,7 @@
 
 O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de interface elaborado anteriormente. Foram realizados ajustes na tela de login, coforme demonstrado a seguir:
 
-![image](https://user-images.githubusercontent.com/78277341/138602673-391f413d-e86d-4c18-9dd4-3b1aad9a4975.png)
+![image](https://user-images.githubusercontent.com/78277341/138707555-bb104e3d-3b1c-428a-a719-7dd7a75f1bff.png)
 
 ![image](https://user-images.githubusercontent.com/78277341/138603706-07e796f4-27fd-43a1-ba55-41ca7d3c8a0d.png)
 
