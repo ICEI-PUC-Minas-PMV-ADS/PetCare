@@ -19,7 +19,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 ## Estrutura de Dados 
 
-![image](https://user-images.githubusercontent.com/78277341/138603016-6f1582c1-002a-462e-9e61-edefc6d4d900.png)
+![image](https://user-images.githubusercontent.com/78277341/138774830-622413f5-cdb7-4c3d-81c3-ba17e148edf6.png)
 
 
 ## Instruções de acesso 
