@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare | A saúde de seus pets em dia!</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+
+</head>
+
+<body>
+    <section class="principal">
+        <nav class="mobile-menu">
+            <div class="wrp-img">
+                <img src="../assets/logotipo.png" alt="">
+            </div>
+            <div class="menu closed" id="bt-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <aside class="menu-lateral" id="menu-lateral">
+            <div class="perfil">
+                <div class="wrp-img">
+                    <img id="avatar" src="" alt="">
+                </div>
+                <h3 id="nome-usuario"></h3>
+            </div>
+            <ul class="menu">
+                <li class="item-menu">
+                    <i class="fas fa-paw"></i>
+                    <a href="main.html">
+                        <h4>Meus Pets</h4>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <i class="fas fa-users-cog"></i>
+                    <a href="conta.html">
+                        <h4>Minha Conta</h4>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <i class="fas fa-calendar-plus"></i>
+                    <a href="calendarioGeral.html">
+                        <h4>Calendario de Vacinas</h4>
+                    </a>
+                </li>
+
+
+            </ul>
+        </aside>
+
+        <section class="painel-view" id="painel">
+            <div class="painel-secundario">
+                <div class="bt-fechar">
+                    <a href="main.html"><i class="fas fa-times"></i></a>
+                </div>
+
+                <nav class="nav-tabs">
+                    <ul>
+                        <li>
+                            <input type="radio" name="tabs" class="tabs" id="tab1" checked>
+                            <label for="tab1">Calendário de Vacinas</label>
+                            <div class="content">
+                                <div class="bt-retorno">
+                                    <a>
+                                        <i class="fas fa-arrow-left"></i>
+                                    </a>
+                                </div>
+                                <article>
+                                    <div class="calendar-view" id='calendar'></div>
+                                </article>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="tabs" class="tabs" id="tab2">
+                            <label for="tab2">Gráfico de pesos</label>
+                            <div class="content">
+                                <div class="bt-retorno">
+                                    <a>
+                                        <i class="fas fa-arrow-left"></i>
+                                    </a>
+                                </div>
+                                <article>
+                                    <div class="view-grafico">
+                                        <div class="wrp-grafico">
+                                            <canvas id="grafico"></canvas>
+                                        </div>
+                                        <!-- <div class="separador r90"><span></span></div> -->
+                                        <div class="formulario-pesos">
+                                            <div class="pesos">
+                                                <form>
+
+                                                    <input type="text" name="nome" placeholder="Descrição">
+                                                    <input type="text" name="especie" placeholder="Observação">
+
+                                                    <div class="col">
+                                                        <input type="text" name="raca" placeholder="Peso">
+                                                        <input type="date" name="Data">
+                                                    </div>
+                                                    <div class="wrp-btns">
+                                                        <input class="button red" type="button" value="Remover">
+                                                        <input class="button" type="button" value="Adicionar">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <!-- <div class="separador"><span></span></div> -->
+
+                                        </div>
+                                        <div class="tabela">
+
+                                            <table border="1">
+                                                <tr>
+                                                    <th>Descrição</th>
+                                                    <th>Observação</th>
+                                                    <th>Peso</th>
+                                                    <th>Data da pesagem</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Pesagem no veterinário</td>
+                                                    <td>Dentro do peso ideal.</td>
+                                                    <td>3.4kg</td>
+                                                    <td>2021-10-24</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" name="tabs" class="tabs" id="tab3">
+                            <label for="tab3">Incluir Vacina / medicamento</label>
+                            <div class="content">
+                                <div class="bt-retorno">
+                                    <a>
+                                        <i class="fas fa-arrow-left"></i>
+                                    </a>
+                                </div>
+                                <article>
+                                    <div class="view-medicamento">
+                                        <div class="formulario-busca">
+                                            <form>
+                                                <input type="text" name="busca" placeholder="Buscar medicamento, data, dosagem...">
+                                                <div class="wrp-btns">
+                                                    <input class="button red" type="button" value="Remover">
+                                                    <input class="button" type="button" value="Buscar">
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="formulario-medicamentos">
+                                            <form>
+
+                                                <input type="text" name="nome" placeholder="Motivo da medicação/vacina.">
+
+                                                <div class="col">
+                                                    <input type="text" name="especie" placeholder="Nome medicamento.">
+
+                                                    <input type="date" name="Data aplicação.">
+                                                </div>
+                                                <div class="col">
+                                                    <input type="text" name="raca" placeholder="Dosagem">
+                                                    <input type="date" name="Reaplicação">
+                                                </div>
+                                                <div class="wrp-btns">
+                                                    <input class="button red" type="button" value="Cancelar">
+                                                    <input class="button" type="button" value="Adicionar">
+                                                </div>
+                                            </form>
+                                            <!-- <div class="separador"><span></span></div> -->
+
+                                        </div>
+                                        <div class="tabela">
+
+                                            <table border="1">
+                                                <tr>
+                                                    <th>Descrição</th>
+                                                    <th>Medicamento/Vacina</th>
+                                                    <th>Dosagem</th>
+                                                    <th>Data aplicação</th>
+                                                    <th>Data reaplicação</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Pesagem no veterinário</td>
+                                                    <td>Dentro do peso ideal.</td>
+                                                    <td>3.4kg</td>
+                                                    <td>2021-10-24</td>
+                                                    <td>-</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </section>
+
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/locales-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/locales-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+</body>
+
+</html>
