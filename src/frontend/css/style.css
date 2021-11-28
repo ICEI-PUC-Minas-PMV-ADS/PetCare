@@ -50,7 +50,7 @@ html {
     width: 100%;
     height: calc(100vh - 120px);
     padding: 0 0 0 5rem;
-    background-color: #FFF;
+    background-color: rgb(201, 23, 23);
 }
 
 .formulario {
