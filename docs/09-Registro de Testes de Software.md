@@ -2,7 +2,7 @@
 
 O presente relatório demonstra as evidências dos testes de software realizados no sistema pela equipe e é baseado no plano de testes definido no [item 8 deste projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/blob/Entrega-final/docs/08-Plano%20de%20Testes%20de%20Software.md).
 #
-## 1. Tela Principal para login
+## 1. Tela inicial para login
 Ao inserir o endereço do site https://icei-puc-minas-pmv-ads.github.io/PetCare/ verificamos que a página de login é mostrada perfeitamente e nela podemos inserir os dados: 
 - E-mail: brunobenetolo@hotmail.com  
 - Senha:  123456
@@ -10,7 +10,11 @@ Ao inserir o endereço do site https://icei-puc-minas-pmv-ads.github.io/PetCare/
 
 Quando os dados não são inseridos adequadamente, um alert é mostrado com a seguinte mensagem: *Senha errada*. 
 
-### :point_right: Observações importantes em Tela principal: 
+Ao abrirmos a página em um dispositivo celular, podemos verificar que a mesma encontra-se responsiva: 
+![image](https://user-images.githubusercontent.com/78277341/143726779-2b3f0c73-2c4f-493a-abd6-c545efcdd325.png)
+
+
+### :point_right: Observações importantes em Tela Inicial: 
 Neste ponto, a equipe verificou que algumas melhorias podem ser aplicadas: 
 - A mensagem do alert pode também constar: "*Por favor, verifique seus dados e os insira corretamente*".
 - O campo de senha deve voltar a ficar limpo após a monstragem do alert de erro, evitando que o usuário erre novamente.
