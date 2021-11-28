@@ -1,7 +1,7 @@
 
  
-<a href="https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=65%3A4"><img src="https://s1.1zoom.me/big0/885/Dogs_Cats_Guinea_pigs_White_background_Three_3_564019_1280x779.jpg" width="750px">
-# <a href="https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=65%3A4"><img src="https://user-images.githubusercontent.com/77770841/134394324-8b1c1cc0-9610-4b66-bb25-e3e67839b3aa.gif" width="300px"></a>
+<a href="https://icei-puc-minas-pmv-ads.github.io/PetCare/"><img src="https://s1.1zoom.me/big0/885/Dogs_Cats_Guinea_pigs_White_background_Three_3_564019_1280x779.jpg" width="750px">
+# <a href="https://icei-puc-minas-pmv-ads.github.io/PetCare/"><img src="https://user-images.githubusercontent.com/77770841/134394324-8b1c1cc0-9610-4b66-bb25-e3e67839b3aa.gif" width="300px"></a>
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
 
