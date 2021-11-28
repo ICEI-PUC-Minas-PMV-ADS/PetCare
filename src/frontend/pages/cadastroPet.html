@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare | A saúde de seus pets em dia!</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.css">
+
+</head>
+
+<body>
+    <section class="principal">
+        <nav class="mobile-menu">
+            <div class="wrp-img">
+                <img src="../assets/logotipo.png" alt="">
+            </div>
+            <div class="menu closed" id="bt-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <aside class="menu-lateral" id="menu-lateral">
+            <div class="perfil">
+                <div class="wrp-img">
+                    <img id="avatar" src="" alt="">
+                </div>
+                <h3 id="nome-usuario"></h3>
+            </div>
+            <ul class="menu">
+                <li class="item-menu">
+                    <i class="fas fa-paw"></i>
+                    <a href="main.html">
+                        <h4>Meus Pets</h4>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <i class="fas fa-users-cog"></i>
+                    <a href="conta.html">
+                        <h4>Minha Conta</h4>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <i class="fas fa-calendar-plus"></i>
+                    <a href="calendarioGeral.html">
+                        <h4>Calendario de Vacinas</h4>
+                    </a>
+                </li>
+
+
+            </ul>
+        </aside>
+
+        <section class="painel-view" id="painel">
+
+            <div class="painel-secundario">
+                <div class="bt-fechar">
+                    <a href="main.html"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="formulario-interno">
+                    <div class="wrp-form">
+                        <div class="wrp-left">
+                            <div class="wrp-img">
+                                <img src="../assets/pet3.jpg" alt="">
+                            </div>
+                        </div>
+                        <form action="/cadastroPet" method="post">
+                            <input type="text" name="nome" placeholder="Nome">
+                            <input type="text" name="especie" placeholder="Espécie">
+                            <input type="text" name="raca" placeholder="Raça">
+                            <input type="date" name="nascimento">
+                        </form>
+                        <div class="wrp-btns">
+                            <input class="button red" type="button" value="Remover Pet">
+                            <input class="button" type="button" value="Salvar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/locales-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/locales-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.js"></script>
+</body>
+
+</html>

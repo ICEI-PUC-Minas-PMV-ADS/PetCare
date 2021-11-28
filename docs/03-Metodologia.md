@@ -1,6 +1,5 @@
 # Metodologia
 
-
 A aplicação foi desenvolvida em protocolo HTTP com linguagem de marcação HTML, estilização CSS e programação JavaScript, construída através do editor de texto Visual Studio Code. Utilizou-se das metodologias ágeis  [scrum e Kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects/1).na organização do time, e versionamento de código Git com repositório [Github](https://github.com).
 
 ## Controle de Versão
@@ -56,7 +55,7 @@ A equipe está organizada da seguinte maneira:
 
 > **Links Úteis**:
 >
-> - [Estrutura do Site PetCare](https://www.figma.com/proto/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=179%3A466&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=179%3A466)
+> - [Estrutura do Site PetCare](https://www.figma.com/file/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=0%3A1)
 > - [Projetos PatCare: Divisão de Tarefas](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects)
 
 ### Processo
@@ -75,7 +74,7 @@ A equipe utilizará a plataforma Github para a construção do projeto e planeja
 
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**:
 >
-> - [Figma](hhttps://www.figma.com/proto/uk6NlzfYOx8shXQK9PPYbQ/PetCare-Projeto?node-id=179%3A466&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=179%3A466)
+> - [Figma](https://slack.com/)
 > - [Github PatCare Projects](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/projects)
 > - [Trello](https://trello.com/b/DaCH145N/projeto-petcare)
 > - [Git Bash](https://git-scm.com/downloads)
