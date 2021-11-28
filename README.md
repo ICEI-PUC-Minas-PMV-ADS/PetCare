@@ -26,7 +26,10 @@ Esse projeto tem como objetivo criar uma plataforma que possibilitará registro 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+- Acesse o projeto pelo computador ou celular:   🐕[PatCare](https://icei-puc-minas-pmv-ads.github.io/PetCare/)
+- Site publicado na Internet
+- Navegador da Internet - Chrome, Firefox ou Edge
+- Conectividade de Internet para acesso às plataformas (APISs)
 
 # Documentação
 
