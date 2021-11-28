@@ -40,7 +40,6 @@ function gerarDB(url, tamanho) {
         }
         usuários.push(user);
     }
-    console.log()
     formatoJson = `{"users": ${JSON.stringify(usuários)} }`
     fs.writeFile(url, formatoJson, e => {
         if (e) return;
@@ -54,27 +53,6 @@ function gerarInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min;
 }
-console.log(gerarInt(1,6))
+
 
 gerarDB("db.json", 2);
-
-
-
-
-
-var data = {
-    "adult": false,
-    "budget": 80000000,
-    "genres": [
-      {
-        "id": 16,
-        "name": "Animação"
-      },
-      {
-        "id": 10751,
-        "name": "Família"
-      }
-    ]
-  }
-
-  console.log(typeof(data.genres[0].id))

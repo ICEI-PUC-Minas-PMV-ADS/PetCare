@@ -6,59 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetCare | Login</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <div class="wrapper-logo">
-                <img src="frontend/assets/pngegg.png" alt="PetCare">
-            </div>
-        </div>
-    </nav>
     <section class="conteudo">
-        <div class="formulario">
-            <div class="acoes">
-                <div class="bt-retorno" spa-link="frontend/pages/login.html" spa-destino=".formulario">
-                    <a href="index.html">
-
-                        <i class="fas fa-arrow-left"></i>
-                        <h5 >Voltar</h5>
-                    </a>
+        <div class="formulario-login">
+            <div class="logo">
+                <div class="wrapper-logo">
+                    <img src="../assets/logotipo.png" alt="PetCare">
                 </div>
             </div>
-            <form action="" method="POST">
-                <div class="titulo">
-                    <h3>Cadastre-se no PetCare</h3>
-                    <h4>Começe a cuidar agora de seus pets.</h4>
-                </div>
-                <div class="campos">
-                    <div class="campo">
-                        <input type="text" name="nome" placeholder="Nome">
+            <div class="inputs">
+                <form>
+                    <div class="titulo">
+                        <div class="retorno">
+                            <a href="../../../index.html">
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                        <h3>Cadastre-se no PetCare</h3>
                     </div>
-                    <div class="campo">
-                        <input type="email" name="mail" placeholder="E-mail">
+                    <div class="campos">
+                        <input id="nome" type="text" name="nome" placeholder="Nome">
+                        <input id="email" type="email" name="mail" placeholder="E-mail">
+                        <input id="nascimento" type="date" name="nascimento" placeholder="Data de nascimento">
+                        <input id="senha" type="password" name="senha" placeholder="Senha">
+                        <input id="valida-senha" type="password" name="valida-senha" placeholder="Confirmar Senha">
+                        <input class="button" id="bt-login" type="button" value="Login">
                     </div>
-                    <div class="campo">
-                        <input type="date" name="nascimento">
-                    </div>
-                    <div class="campo">
-                        <input type="password" name="senha" placeholder="Senha">
-                    </div>
-                    <div class="campo">
-                        <input type="password" name="confirmaSenha" placeholder="Confirmar senha">
-                    </div>
-                </div>
-                <button type="submit">Cadastrar</button>
-            </form>
+                </form>
+            </div>
         </div>
+
         <div class="banner">
             <div class="wrapper-banner">
-                <img src="frontend/assets/jonas-vincent-xulIYVIbYIc-unsplash.jpg" alt="">
+                <img src="../assets/banner.jpg" alt="">
             </div>
         </div>
     </section>

@@ -1,48 +1,16 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Apresentaremos a seguir os detalhes técnicos que tratam dos componentes que fazem parte da solução e do ambiente de hospedagem da solução, criado pela equipe. 
-
-  
-
-### Diagrama de Componentes 
-
-Os componentes que fazem parte da solução são apresentados na Figura que se segue. 
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PetCare/blob/main/docs/img/Arquitetura.jpeg)
-
-Figura 4 - Arquitetura da Solução 
-
- 
-
-A solução implementada conta com os seguintes módulos:  
-
- 
-
- - Navegador - Interface básica do sistema
-	 - Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
- - Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
-	 - Plataforma Heroku ou Plataforma Netlify
- - Local Storage - armazenamento mantido no Navegador, onde são implementados através de uma biblioteca (JSON Server) o banco de dados baseados em JSON. São eles:
-	 - Dados do usuário – informações do usuário como nome, e-mail, idade, cidade, estado e gênero.
-	 - Dados do pet – informações do pet como nome, idade, peso, raça e cor.
-	 - Dados de vacina – informações sobre as vacinas de caráter obrigatório, nome da vacina, data de aplicação, se necessita de dose reforço ou não, se necessitar de dose reforço data do retorno.
-	 - Dados de medicamentos – nome do medicamento, quantidade a ser ministrado, periodicidade a ser ministrado, e receita em formato pdf, jpeg, png etc.
-	  
-
-### Hospedagem 
-
-Como ambiente de hospedagem do site do nosso projeto utilizaremos a plataforma do Heroku ou Netlify. O site poderá ser acessado a partir do domínio posteriormente gerado pela plataforma nas próximas etapas. 
- 
-A publicação do site no Heroku ou no Netlify é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontrará no github.
+Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de Classes
 
-O Diagrama de Classes representa abstração dos objetos bem como os seus relacionamentos. Foram imaginados quatro objetos que representarão as principais entidades do sistema. 
+O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
+As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
-![image](https://user-images.githubusercontent.com/78277341/135914609-c96c3326-7954-4648-aa00-48ac1ccabe61.png)
+> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
+> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
 ## Modelo ER
 

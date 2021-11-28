@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PetCare | Login</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare | Login</title>
+    <link rel="stylesheet" type="text/css" href="src/frontend/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
 
 <body>
+    <section class="conteudo">
+        <div class="formulario-login">
+            <div class="logo">
+                <div class="wrapper-logo">
+                    <img src="src/frontend/assets/logotipo.png" alt="PetCare">
+                </div>
+            </div>
+            <div class="inputs">
+                <form>
+                    <div class="titulo">
+                        <h3>Acesse sua conta</h3>
+                    </div>
+                    <div class="campos">
+                        <input id="email" type="email" name="mail" placeholder="E-mail">
+                        <input id="senha" type="password" name="senha" placeholder="Senha">
+                        <h5>Ainda não é cadastrado?
+                            <a href="src/frontend/pages/cadastro.html"> Crie já sua conta.</a>
+                        </h5>
+                        <input class="button" id="bt-login" type="button" value="Login">
+                    </div>
+                </form>
+            </div>
+        </div>
 
-  <div class="imageContent"></div>
-
-  <div class="loginContent">
-
-    <section class="login">
-
-      <h1><a href="/" title="PetCare">PetCare</a></h1>
-
-      <div class="form">
-        <input type="email" class="email" id="email" name="email" placeholder="Email">
-        <input type="password" class="senha" id="senha" name="senha" placeholder="Senha">
-
-        <p class="cadastro">Ainda não é cadastrado? <a href="">Crie sua conta</a></p>
-
-        <input type="submit" onclick="logar()" id="entrar" value="Entrar">
-      </div>
-
+        <div class="banner">
+            <div class="wrapper-banner">
+                <img src="src/frontend/assets/banner.jpg" alt="">
+            </div>
+        </div>
     </section>
 
-  </div>
-
-  <script type="text/javascript" src="login.js"></script>
-
+    <script src="src/frontend/js/script.js"></script>
 </body>
 
 </html>

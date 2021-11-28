@@ -11,6 +11,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.css">
+
 </head>
 
 <body>
@@ -54,11 +57,40 @@
             </ul>
         </aside>
 
-        <section class="painel-view" id="painel"></section>
-
+        <section class="painel-view" id="painel">
+            <div class="painel-secundario">
+                <div class="bt-fechar">
+                    <a href="main.html"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="formulario-interno">
+                    <div class="wrp-form">
+                        <div class="wrp-left">
+                            <div class="wrp-img">
+                                <img id="avatar" src="" alt="">
+                            </div>
+                        </div>
+                        <form action="/cadastroPet" method="post">
+                            <input id="nome" type="text" name="nome" placeholder="Nome">
+                            <input id="email" type="email" name="mail" placeholder="E-mail">
+                            <input id="nascimento" type="date" name="nascimento" placeholder="Data de nascimento">
+                            <input id="senha" type="password" name="senha" placeholder="Senha">
+                            <input id="valida-senha" type="password" name="valida-senha" placeholder="Confirmar Senha">
+                        </form>
+                        <div class="wrp-btns">
+                            <input class="button red" type="button" value="Excluir Conta">
+                            <input class="button" type="button" value="Salvar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
 
     <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/locales-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/locales-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/main.min.js"></script>
 </body>
 
 </html>
