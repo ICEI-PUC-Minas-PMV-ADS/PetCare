@@ -45,3 +45,9 @@ Esse projeto tem como objetivo criar uma plataforma que possibilitará registro 
 <li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
 <li><a href="docs/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
 <li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
+ 
+ # Apresentação
+
+[![Watch the video](https://user-images.githubusercontent.com/78277341/144880982-308d72df-079e-4f8e-a8e6-1bfbeda473de.png)](https://youtu.be/oS4SosY4xmY)
+>
+
