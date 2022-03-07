@@ -10,7 +10,7 @@ Desta forma, constatou-se que o presente projeto possui 3 principais personas:
 - Adultos: pais e mães com filhos menores, que possuem um ou alguns animais domésticos (na faixa de idade entre 40 e 59 anos ).
 - Idosos/aposentados/competidores: criam um ou muitos animais, não só para companhia/afeto, mas também por motivos econômicos (ainda que em caráter doméstico), altruísta, segurança ou de status social, seja em associações de apoio animal, competições municipais ou pequenas glebas rurais particulares (faixa de idade acima de 60 anos de idade). 
 
-A seguir, passamos à análise detalhada das principais personas e suas respectivas histórias. 
+A seguir, passamos à análise detalhada das principais personas e suas respectivas histórias de usuários. 
 
 ## Personas
 
